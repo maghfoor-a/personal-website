@@ -9,12 +9,15 @@
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .side .fancy {
-    font-family:"Lobster", cursive;
+    font-family:"Lobster", monospace;
     font-size: 1.5em;
     line-height: 0.8em;
+    font-weight: bolder;
+    text-decoration: overline;
 }
 
 #left-side {
