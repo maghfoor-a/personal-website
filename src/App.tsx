@@ -1,10 +1,11 @@
-import './App.css';
+import AppHeader from "./components/AppHeader"
+
 
 function App() {
   return (
-    <div><h1>Welcome to Maghfoor's personal website</h1>
-    <p>To be continued...</p>
-    </div>
+    <>
+      <AppHeader />
+    </>
   );
 }
 

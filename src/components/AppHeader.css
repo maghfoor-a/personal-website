@@ -1,0 +1,44 @@
+.BothSides {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.side .fancy {
+    font-family:"Lobster", cursive;
+    font-size: 1.5em;
+    line-height: 0.8em;
+}
+
+#left-side {
+    background-color: black;
+}
+
+#right-side {
+    background-color: yellow;
+    
+}
+
+#left-side .title {
+    color: white;
+}
+
+#left-side .fancy {
+    color: yellow;
+}
+
+#right-side .title {
+    color: black;
+
+}
+
+#right-side .fancy {
+    color: purple;
+}
