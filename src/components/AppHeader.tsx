@@ -10,7 +10,6 @@ function AppHeader(): JSX.Element {
     const xPercentage = (e.clientX / window.innerWidth) * 100;
     setWidthPct(xPercentage)
     }
-    console.log(widthPct)
 
     return (
         <div className="BothSides" onMouseMove={handleMove}>
