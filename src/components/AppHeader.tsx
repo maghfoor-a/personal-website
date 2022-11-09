@@ -1,12 +1,10 @@
-import { MouseEvent } from 'react';
-
 import "./AppHeader.css"
 
 function AppHeader(): JSX.Element {
 
     const left: any = document.getElementById("left-side");
 
-    const handleMove = (e: MouseEvent) => {
+    const handleMove = (e: any) => {
 
     const percentage = (e.clientX / window.innerWidth) * 100;
 
