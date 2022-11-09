@@ -1,20 +1,20 @@
 import "./AppHeader.css"
+import React from "react";
 
 function AppHeader(): JSX.Element {
 
-    const left: any = document.getElementById("left-side");
+    const [widthPct, setWidthPct] = React.useState<number>(50);
 
     const handleMove = (e: any) => {
 
-    const percentage = (e.clientX / window.innerWidth) * 100;
+    const xPercentage = (e.clientX / window.innerWidth) * 100;
+    setWidthPct(xPercentage)
+    }
+    console.log(widthPct)
 
-    left.style.width = `${percentage}%`
-    console.log(left.style.width);
-    
-  }
     return (
         <div className="BothSides" onMouseMove={handleMove}>
-            <div id="left-side" className="side">
+            <div id="left-side" className="side" style={{width: `${widthPct}%`}}>
                 <h2 className="title">
                     Today was <span className="fancy">good</span>
                 </h2>
@@ -28,3 +28,4 @@ function AppHeader(): JSX.Element {
     )
 }
 export default AppHeader;
+
