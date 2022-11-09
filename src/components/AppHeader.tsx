@@ -1,4 +1,3 @@
-import React from 'react';
 import { MouseEvent } from 'react';
 
 import "./AppHeader.css"
@@ -11,14 +10,13 @@ function AppHeader(): JSX.Element {
 
     const percentage = (e.clientX / window.innerWidth) * 100;
 
-    left.style.width = percentage.toFixed(2) + "%"
+    left.style.width = `${percentage}%`
+    console.log(left.style.width);
     
   }
-
-    document.onmousemove = e => handleMove(e);
     return (
-        <div className="BothSides">
-            <div id="left-side" className="side" onMouseMove={handleMove}>
+        <div className="BothSides" onMouseMove={handleMove}>
+            <div id="left-side" className="side">
                 <h2 className="title">
                     Today was <span className="fancy">good</span>
                 </h2>
