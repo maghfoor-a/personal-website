@@ -6,8 +6,8 @@
     --c1: rgb(38, 70, 83);
     --c2: rgb(42, 157, 143);
     
-    --left-color: var(--c1);
-    --right-color: var(--c2);
+    --left-color: #dc7929;
+    --right-color: #065847;
   }
   
   body {  
