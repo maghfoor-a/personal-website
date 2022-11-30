@@ -18,7 +18,7 @@ function AppHeader(): JSX.Element {
                     <h2 className="title">
                         Today was <span className="fancy">GOOD</span>
                     </h2>
-                    <a href="https://my-favourite-media.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="button">My Favourite Media</button></a>
+                    <a href="https://my-favourite-media.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="button">My Favourite Media (work in progress!)</button></a>
                     <a href="https://github.com/maghfoor-a" target="_blank" rel="noopener noreferrer"><button className="button">GitHub</button></a>
                 </div>
                 <div id="right-side" className="side">
