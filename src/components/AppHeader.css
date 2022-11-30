@@ -61,3 +61,33 @@
   #right-side .fancy {
     color: white;
   }
+
+.button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.githubBtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
