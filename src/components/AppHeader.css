@@ -1,73 +1,73 @@
 :root {
-    --dark: rgb(20, 20, 20);
-    --yellow: rgb(253, 216, 53);
-    --blue: rgb(98, 0, 234);
-    
-    --c1: rgb(38, 70, 83);
-    --c2: rgb(42, 157, 143);
-    
-    --left-color: #dc7929;
-    --right-color: #065847;
-  }
-  
-  body {  
-    background-color: var(--dark);
-    margin: 0px;
-  }
-  
-  .side {
-    display: grid;
-    height: 100vh;
-    overflow: hidden;
-    place-items: center;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .side .title {
-    font-family: "Rubik", sans-serif;
-    font-size: 8vw;
-    margin: 0px 10vw;
-    width: 80vw;
-  }
-  
-  .side .fancy {
-    font-family: "Lobster", monospace;
-    font-size: 1.3em;
-    line-height: 0.8em;
-  }
-  
-  #left-side {
-    background-color: var(--left-color);
-    z-index: 2;
-  }
-  
-  #left-side .title {  
-    color: white;  
-  }
-  
-  #left-side .fancy {
-    color: var(--right-color);
-  }
-  
-  #right-side {
-    background-color: var(--right-color);
-  }
-  
-  #right-side .title {
-    color: var(--dark);
-  }
-  
-  #right-side .fancy {
-    color: white;
-  }
+  --dark: rgb(20, 20, 20);
+  --yellow: rgb(253, 216, 53);
+  --blue: rgb(98, 0, 234);
+
+  --c1: rgb(38, 70, 83);
+  --c2: rgb(42, 157, 143);
+
+  --left-color: #dc7929;
+  --right-color: #065847;
+}
+
+body {
+  background-color: var(--dark);
+  margin: 0px;
+}
+
+.side {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.side .title {
+  font-family: "Rubik", sans-serif;
+  font-size: 8vw;
+  margin: 0px 10vw;
+  width: 80vw;
+}
+
+.side .fancy {
+  font-family: "Lobster", monospace;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+
+#left-side {
+  background-color: var(--left-color);
+  z-index: 2;
+}
+
+#left-side .title {
+  color: white;
+}
+
+#left-side .fancy {
+  color: var(--right-color);
+}
+
+#right-side {
+  background-color: var(--right-color);
+}
+
+#right-side .title {
+  color: var(--dark);
+}
+
+#right-side .fancy {
+  color: white;
+}
 
 .button {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
-  margin: 3px;
+  margin: 10px;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
@@ -77,17 +77,20 @@
   transition-property: box-shadow, transform;
 }
 
-.githubBtn {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  font-size: x-large;
-  font-family: "Courier New", Courier, monospace;
-  margin: 3px;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
+.AllButtons {
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 3;
+}
+.button:hover,
+.button:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#github {
+  color: white;
+  background-color: #817f7f;
 }
