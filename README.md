@@ -1,3 +1,3 @@
 # Maghfoor's Personal Website
 
-maghfoor.com
+[maghfoor.com](https://maghfoor.com)
