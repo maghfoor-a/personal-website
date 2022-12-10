@@ -63,7 +63,6 @@ body {
 }
 
 .button {
-  background-color: #ffffff;
   color: rgb(0, 0, 0);
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
@@ -78,8 +77,11 @@ body {
 }
 
 .AllButtons {
+  max-width: 50%;
   display: grid;
-  place-items: center;
+  grid-template-areas:
+   "MFM"
+   "github";
   position: relative;
   z-index: 3;
 }
@@ -90,7 +92,12 @@ body {
   transform: scale(1.1);
 }
 
-#github {
+.github {
+  grid-area: "github";
   color: white;
   background-color: #817f7f;
+}
+
+.MFM {
+  grid-area: "MFM";
 }

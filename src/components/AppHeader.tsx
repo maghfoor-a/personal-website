@@ -4,14 +4,14 @@ import React from "react";
 function AppHeader(): JSX.Element {
   const [widthPct, setWidthPct] = React.useState<number>(50);
 
-  const handleMove = (e: any) => {
+  const handleMouseMove = (e: any) => {
     const xPercentage = (e.clientX / window.innerWidth) * 100;
     setWidthPct(xPercentage);
   };
 
   return (
     <>
-      <div className="BothSides" onMouseMove={handleMove}>
+      <div className="BothSides" onMouseMove={handleMouseMove}>
         <div id="left-side" className="side" style={{ width: `${widthPct}%` }}>
           <h2 className="title">
             Today was <span className="fancy">GOOD</span>
@@ -28,7 +28,7 @@ function AppHeader(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button">
+            <button className="button MFM">
               My Favourite Media (work in progress!)
             </button>
           </a>
@@ -37,7 +37,7 @@ function AppHeader(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button" id="github">
+            <button className="button github">
               GitHub
             </button>
           </a>
