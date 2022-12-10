@@ -1,5 +1,6 @@
 import "./AppHeader.css";
 import React from "react";
+import { Link } from "react-router-dom"
 
 function AppHeader(): JSX.Element {
   const [widthPct, setWidthPct] = React.useState<number>(50);
@@ -32,7 +33,7 @@ function AppHeader(): JSX.Element {
               My Favourite Media (work in progress!)
             </button>
           </a>
-          <button className="button CC">Creative Coding</button>
+          <Link to="/creative"><button className="button CC">Creative Coding</button></Link>
           <a
             href="https://github.com/maghfoor-a"
             target="_blank"
