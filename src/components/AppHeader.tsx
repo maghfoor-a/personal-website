@@ -37,9 +37,7 @@ function AppHeader(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button github">
-              GitHub
-            </button>
+            <button className="button github">GitHub</button>
           </a>
         </div>
       </div>

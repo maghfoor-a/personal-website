@@ -80,8 +80,8 @@ body {
   max-width: 50%;
   display: grid;
   grid-template-areas:
-   "MFM"
-   "github";
+    "MFM"
+    "github";
   position: relative;
   z-index: 3;
 }
