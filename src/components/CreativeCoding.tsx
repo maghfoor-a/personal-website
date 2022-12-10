@@ -1,6 +1,9 @@
 import "./CreativeCoding.css";
 import { AllPictures, AllGifs } from "../utils/allPicturesArray";
 export default function CreativeCoding(): JSX.Element {
+  const handleLink = (link: string) => {
+    window.open(link);
+  };
   return (
     <>
       <div className="Creativetitle">
@@ -14,7 +17,11 @@ export default function CreativeCoding(): JSX.Element {
       <div className="allCreative">
         {AllGifs.map((media) => {
           return (
-            <div key={media.id} className="singlePicture">
+            <div
+              key={media.id}
+              className="singlePicture"
+              onClick={() => handleLink(media.link)}
+            >
               <img
                 className="image"
                 src={media.gif}
@@ -29,7 +36,11 @@ export default function CreativeCoding(): JSX.Element {
       <div className="allCreative">
         {AllPictures.map((media) => {
           return (
-            <div key={media.id} className="singlePicture">
+            <div
+              key={media.id}
+              className="singlePicture"
+              onClick={() => handleLink(media.link)}
+            >
               <img
                 className="image"
                 src={media.picture}
