@@ -55,7 +55,7 @@ body {
 }
 
 #right-side .title {
-  color: var(--dark);
+  color: var(--left-color);
 }
 
 #right-side .fancy {
