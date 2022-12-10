@@ -1,0 +1,11 @@
+.allCreative {
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.singlePicture {
+  margin: 1rem;
+  max-width: 400;
+}
