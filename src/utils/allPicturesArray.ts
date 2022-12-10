@@ -1,14 +1,14 @@
 //importing all the pictures that I have made
-import PicFirstProject from "../utils/creativePictures/FirstProject.png";
-import PicRandomWalk1 from "../utils/creativePictures/randomwalk (1).png";
-import PicRandomWalk2 from "../utils/creativePictures/randomwalk (3).svg";
-import PicRandomWalk3 from "../utils/creativePictures/randomwalk (4).png";
-import PicRandomWalk4 from "../utils/creativePictures/randomwalk (7).png";
-import PicRandomWalk5 from "../utils/creativePictures/randomwalk (8).png";
-import PicRandomWalk6 from "../utils/creativePictures/randomwalk (10).png";
-import PicRandomWalk7 from "../utils/creativePictures/randomwalk (12).png";
-import PicRandomWalk8 from "../utils/creativePictures/randomwalk (13).png";
-import PicRandomWalk9 from "../utils/creativePictures/twoRandomWalkers.png";
+import PicFirstProject from "../utils/creativePictures/FirstProject.webp";
+import PicRandomWalk1 from "../utils/creativePictures/randomwalk (1).webp";
+import PicRandomWalk2 from "../utils/creativePictures/randomwalk (3).webp";
+import PicRandomWalk3 from "../utils/creativePictures/randomwalk (4).webp";
+import PicRandomWalk4 from "../utils/creativePictures/randomwalk (7).webp";
+import PicRandomWalk5 from "../utils/creativePictures/randomwalk (8).webp";
+import PicRandomWalk6 from "../utils/creativePictures/randomwalk (10).webp";
+import PicRandomWalk7 from "../utils/creativePictures/randomwalk (12).webp";
+import PicRandomWalk8 from "../utils/creativePictures/randomwalk (13).webp";
+import PicRandomWalk9 from "../utils/creativePictures/twoRandomWalkers.webp";
 
 //importing gifs that I have made of my work
 import fishGold from "../utils/creativePictures/fish-gold.gif";
