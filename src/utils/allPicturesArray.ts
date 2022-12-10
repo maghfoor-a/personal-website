@@ -1,7 +1,7 @@
 //importing all the pictures that I have made
 import PicFirstProject from "../utils/creativePictures/FirstProject.png";
 import PicRandomWalk1 from "../utils/creativePictures/randomwalk (1).png";
-import PicRandomWalk2 from "../utils/creativePictures/randomwalk (3).png";
+import PicRandomWalk2 from "../utils/creativePictures/randomwalk (3).svg";
 import PicRandomWalk3 from "../utils/creativePictures/randomwalk (4).png";
 import PicRandomWalk4 from "../utils/creativePictures/randomwalk (7).png";
 import PicRandomWalk5 from "../utils/creativePictures/randomwalk (8).png";
