@@ -6,7 +6,7 @@ export default function CreativeCoding(): JSX.Element {
       <div className="title">
         <h1>MY CREATIVE CODING JOURNEY</h1>
         <h3>🚧🚧Work in progress! come back later🚧🚧</h3>
-        <p>please wait for the browser to full load the media😊😊</p>
+        <p>please wait for the browser to fully load the media😊😊</p>
       </div>
       <div className="allCreative">
         {AllGifs.map((media) => {
