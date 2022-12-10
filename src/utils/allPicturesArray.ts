@@ -40,13 +40,13 @@ export const AllPictures = [
     id: 4,
     picture: PicRandomWalk9,
     name: "Random Walker Adaptation: Two Random Walkers.",
-    link: "",
+    link: "https://openprocessing.org/sketch/1724810",
   },
   {
     id: 5,
     picture: PicRandomWalk2,
     name: "Random Walker Adaptation C1.",
-    link: "https://openprocessing.org/sketch/1724810",
+    link: "https://openprocessing.org/sketch/1721002",
   },
   {
     id: 6,
