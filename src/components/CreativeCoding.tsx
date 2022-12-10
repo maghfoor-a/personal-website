@@ -27,6 +27,8 @@ export default function CreativeCoding(): JSX.Element {
                 src={media.gif}
                 alt={media.gif}
                 width="400"
+                height="400"
+                loading="lazy"
               />
               <h4>{media.name}</h4>
             </div>
@@ -46,6 +48,8 @@ export default function CreativeCoding(): JSX.Element {
                 src={media.picture}
                 alt={media.picture}
                 width="400"
+                height="400"
+                loading="lazy"
               />
               <h4>{media.name}</h4>
             </div>
