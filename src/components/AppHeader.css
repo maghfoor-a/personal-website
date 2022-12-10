@@ -77,7 +77,6 @@ body {
 }
 
 .AllButtons {
-  max-width: 50%;
   display: grid;
   grid-template-areas:
     "MFM"
@@ -85,6 +84,7 @@ body {
     "github";
   position: relative;
   z-index: 3;
+  text-align: center;
 }
 .button:hover,
 .button:active {
@@ -97,13 +97,18 @@ body {
   grid-area: "github";
   color: white;
   background-color: #817f7f;
+  align-items: center;
+  justify-content: center;
 }
 
 .MFM {
   grid-area: "MFM";
-  width: 20rem;
 }
 .CC {
   grid-area: "CC";
-  width: 10rem;
+}
+
+.BothSides {
+  display: grid;
+  justify-content: center;
 }
