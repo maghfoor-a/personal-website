@@ -81,6 +81,7 @@ body {
   display: grid;
   grid-template-areas:
     "MFM"
+    "CC"
     "github";
   position: relative;
   z-index: 3;
@@ -100,4 +101,9 @@ body {
 
 .MFM {
   grid-area: "MFM";
+  width: 20rem;
+}
+.CC {
+  grid-area: "CC";
+  width: 10rem;
 }

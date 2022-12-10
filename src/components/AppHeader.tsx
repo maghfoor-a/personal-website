@@ -32,6 +32,7 @@ function AppHeader(): JSX.Element {
               My Favourite Media (work in progress!)
             </button>
           </a>
+          <button className="button CC">Creative Coding</button>
           <a
             href="https://github.com/maghfoor-a"
             target="_blank"
