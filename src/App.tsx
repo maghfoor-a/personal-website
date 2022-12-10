@@ -4,10 +4,12 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<AppHeader />}></Route>
-      <Route path="creative" element={<CreativeCoding />}></Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<AppHeader />}></Route>
+        <Route path="creative" element={<CreativeCoding />}></Route>
+      </Routes>
+    </>
   );
 }
 
