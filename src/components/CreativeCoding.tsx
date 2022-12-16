@@ -22,13 +22,14 @@ export default function CreativeCoding(): JSX.Element {
               className="singlePicture"
               onClick={() => handleLink(media.link)}
             >
-              <img
+              <video
                 className="image"
                 src={media.gif}
-                alt={media.gif}
                 width="400"
                 height="400"
-                loading="lazy"
+                controls
+                autoPlay
+                loop
               />
               <h4>{media.name}</h4>
             </div>

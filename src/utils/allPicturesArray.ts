@@ -11,9 +11,9 @@ import PicRandomWalk8 from "../utils/creativePictures/randomwalk (13).webp";
 import PicRandomWalk9 from "../utils/creativePictures/twoRandomWalkers.webp";
 
 //importing gifs that I have made of my work
-import fishGold from "../utils/creativePictures/fish-gold.gif";
-import movingCircles from "../utils/creativePictures/moving-circles.gif";
-import starfield from "../utils/creativePictures/stars-colour.gif";
+import fishGold from "../utils/creativePictures/fish-gold.webm";
+import movingCircles from "../utils/creativePictures/moving-circles.webm";
+import starfield from "../utils/creativePictures/stars-colours.webm";
 
 //importing react 3D work gifs later on
 
