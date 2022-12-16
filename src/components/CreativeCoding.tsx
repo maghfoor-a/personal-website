@@ -24,7 +24,7 @@ export default function CreativeCoding(): JSX.Element {
             >
               <video
                 className="image"
-                src={media.gif}
+                src={media.video}
                 width="400"
                 height="400"
                 controls

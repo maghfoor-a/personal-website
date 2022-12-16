@@ -71,19 +71,19 @@ export const AllPictures = [
 export const AllGifs = [
   {
     id: 1,
-    gif: fishGold,
+    video: fishGold,
     name: "Testing with imported pictures, adapting from starfield.",
     link: "https://openprocessing.org/sketch/1750023",
   },
   {
     id: 2,
-    gif: starfield,
+    video: starfield,
     name: "A 2D starfield built with speheres and strokes",
     link: "https://openprocessing.org/sketch/1749955",
   },
   {
     id: 3,
-    gif: movingCircles,
+    video: movingCircles,
     name: "Plotting circles then added motion based on framecount.",
     link: "https://openprocessing.org/sketch/1740369",
   },
