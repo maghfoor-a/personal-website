@@ -30,6 +30,7 @@ export default function CreativeCoding(): JSX.Element {
                 controls
                 autoPlay
                 loop
+                muted
               />
               <h4>{media.name}</h4>
             </div>
