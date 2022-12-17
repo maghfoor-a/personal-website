@@ -6,9 +6,10 @@ import PicRandomWalk3 from "../utils/creativePictures/randomwalk (4).webp";
 import PicRandomWalk4 from "../utils/creativePictures/randomwalk (7).webp";
 import PicRandomWalk5 from "../utils/creativePictures/randomwalk (8).webp";
 import PicRandomWalk6 from "../utils/creativePictures/randomwalk (10).webp";
-import PicRandomWalk7 from "../utils/creativePictures/randomwalk (12).webp";
-import PicRandomWalk8 from "../utils/creativePictures/randomwalk (13).webp";
 import PicRandomWalk9 from "../utils/creativePictures/twoRandomWalkers.webp";
+import movingCirclePoster from "../utils/creativePictures/moving-circles-poster.png";
+import starfieldPoster from "../utils/creativePictures/starfield-poster.png";
+import fishGoldPoster from "../utils/creativePictures/fishGoldPoster.png";
 
 //importing gifs that I have made of my work
 import fishGold from "../utils/creativePictures/fish-gold.webm";
@@ -74,17 +75,20 @@ export const AllGifs = [
     video: fishGold,
     name: "Testing with imported pictures, adapting from starfield.",
     link: "https://openprocessing.org/sketch/1750023",
+    poster: fishGoldPoster
   },
   {
     id: 2,
     video: starfield,
     name: "A 2D starfield built with speheres and strokes",
     link: "https://openprocessing.org/sketch/1749955",
+    poster: starfieldPoster
   },
   {
     id: 3,
     video: movingCircles,
     name: "Plotting circles then added motion based on framecount.",
     link: "https://openprocessing.org/sketch/1740369",
+    poster: movingCirclePoster
   },
 ];
