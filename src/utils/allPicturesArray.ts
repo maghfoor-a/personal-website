@@ -75,20 +75,20 @@ export const AllGifs = [
     video: fishGold,
     name: "Testing with imported pictures, adapting from starfield.",
     link: "https://openprocessing.org/sketch/1750023",
-    poster: fishGoldPoster
+    poster: fishGoldPoster,
   },
   {
     id: 2,
     video: starfield,
     name: "A 2D starfield built with speheres and strokes",
     link: "https://openprocessing.org/sketch/1749955",
-    poster: starfieldPoster
+    poster: starfieldPoster,
   },
   {
     id: 3,
     video: movingCircles,
     name: "Plotting circles then added motion based on framecount.",
     link: "https://openprocessing.org/sketch/1740369",
-    poster: movingCirclePoster
+    poster: movingCirclePoster,
   },
 ];
