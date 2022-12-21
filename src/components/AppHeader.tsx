@@ -51,7 +51,7 @@ function AppHeader(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="button MFM">
-              <img className="img" src={MFM} width={400} height={400} />
+              <img className="img" src={MFM} width={300} height={300} />
               <p className="projectTitle">
                 My Favourite Media (work in progress!)
               </p>
@@ -63,13 +63,18 @@ function AppHeader(): JSX.Element {
             rel="noopener noreferrer"
           >
             <div className="button GSD">
-              <img className="img" src={GetStuffDone} />
+              <img
+                className="img"
+                src={GetStuffDone}
+                width={300}
+                height={300}
+              />
               <p className="projectTitle">Get Stuff Done!</p>
             </div>
           </a>
           <Link to="/creative">
             <div className="button CC">
-              <img className="img" src={randomWalk} width={400} height={400} />
+              <img className="img" src={randomWalk} width={300} height={300} />
               <p className="projectTitle">Creative Coding</p>
             </div>
           </Link>
