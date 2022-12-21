@@ -23,7 +23,7 @@ function AppHeader(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button">LinkedIn</button>
+            <button className="button">GitHub</button>
           </a>
           <a
             className="github"
@@ -31,7 +31,7 @@ function AppHeader(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button">GitHub</button>
+            <button className="button">LinkedIn</button>
           </a>
         </div>
         <div id="left-side" className="side" style={{ width: `${widthPct}%` }}>
