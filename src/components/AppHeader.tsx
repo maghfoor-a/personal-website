@@ -1,6 +1,9 @@
 import "./AppHeader.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import randomWalk from "../utils/creativePictures/randomwalk (10).webp";
+import MFM from "../utils/MFM.webp";
+import GetStuffDone from "../utils/GetStuffDone.webp";
 
 function AppHeader(): JSX.Element {
   const [widthPct, setWidthPct] = React.useState<number>(50);
@@ -13,6 +16,24 @@ function AppHeader(): JSX.Element {
   return (
     <>
       <div className="BothSides" onMouseMove={handleMouseMove}>
+        <div className="extra">
+          <a
+            className="github"
+            href="https://github.com/maghfoor-a"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="button">LinkedIn</button>
+          </a>
+          <a
+            className="github"
+            href="https://www.linkedin.com/in/maghfoor"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="button">GitHub</button>
+          </a>
+        </div>
         <div id="left-side" className="side" style={{ width: `${widthPct}%` }}>
           <h2 className="title">
             Today was <span className="fancy">GOOD</span>
@@ -23,33 +44,35 @@ function AppHeader(): JSX.Element {
             Today was <span className="fancy">GREAT</span>
           </h2>
         </div>
-        <div className="AllButtons">
+        <div className="AllProjects">
           <a
             href="https://my-favourite-media.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button MFM">
-              My Favourite Media (work in progress!)
-            </button>
+            <div className="button MFM">
+              <img className="img" src={MFM} width={400} height={400} />
+              <p className="projectTitle">
+                My Favourite Media (work in progress!)
+              </p>
+            </div>
           </a>
           <a
             href="https://getstuffdone.maghfoor.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button">Get Stuff Done!</button>
+            <div className="button GSD">
+              <img className="img" src={GetStuffDone} />
+              <p className="projectTitle">Get Stuff Done!</p>
+            </div>
           </a>
           <Link to="/creative">
-            <button className="button CC">Creative Coding</button>
+            <div className="button CC">
+              <img className="img" src={randomWalk} width={400} height={400} />
+              <p className="projectTitle">Creative Coding</p>
+            </div>
           </Link>
-          <a
-            href="https://github.com/maghfoor-a"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="button github">GitHub</button>
-          </a>
         </div>
       </div>
     </>

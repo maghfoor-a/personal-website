@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: var(--blue);
+  background-color: var(white);
   margin: 0px;
 }
 
@@ -76,15 +76,13 @@ body {
   transition-property: box-shadow, transform;
 }
 
-.AllButtons {
+.AllProjects {
   display: grid;
-  grid-template-areas:
-    "MFM"
-    "CC"
-    "github";
+  grid-template-areas: "MFM CC GSD";
   position: relative;
   z-index: 3;
   text-align: center;
+  font-weight: bolder;
 }
 .button:hover,
 .button:active {
@@ -94,21 +92,42 @@ body {
 }
 
 .github {
-  grid-area: "github";
   color: white;
-  background-color: #817f7f;
-  align-items: center;
-  justify-content: center;
 }
 
 .MFM {
-  grid-area: "MFM";
+  grid-area: MFM;
+  font-size: 2rem;
+  width: 400px;
+  border-radius: 25px;
 }
 .CC {
-  grid-area: "CC";
+  grid-area: CC;
+  font-size: 2rem;
+  width: 400px;
+}
+.GSD {
+  grid-area: GSD;
+  font-size: 2rem;
+  width: 400px;
+}
+
+.img {
+  border-radius: 25px;
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.projectTitle {
+  margin: 0;
 }
 
 .BothSides {
   display: grid;
   justify-content: center;
+}
+.extra {
+  text-align: center;
+  z-index: 3;
 }
