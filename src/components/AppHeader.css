@@ -29,6 +29,7 @@ body {
   font-size: 8vw;
   margin: 0px 10vw;
   width: 80vw;
+  margin-top: auto;
 }
 
 .side .fancy {
@@ -98,18 +99,18 @@ body {
 
 .MFM {
   grid-area: MFM;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 300px;
   border-radius: 25px;
 }
 .CC {
   grid-area: CC;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 300px;
 }
 .GSD {
   grid-area: GSD;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 300px;
 }
 
