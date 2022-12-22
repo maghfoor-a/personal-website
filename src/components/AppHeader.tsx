@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import randomWalk from "../utils/creativePictures/randomwalk (10).webp";
 import MFM from "../utils/MFM.webp";
 import GetStuffDone from "../utils/GetStuffDone.webp";
+import ZMDB from "../utils/ZMDB.webp";
 
 function AppHeader(): JSX.Element {
   const [widthPct, setWidthPct] = React.useState<number>(50);
@@ -45,8 +46,14 @@ function AppHeader(): JSX.Element {
           </h2>
         </div>
         <div className="AllProjects">
-          <a
-            href="https://my-favourite-media.netlify.app/"
+          <Link to="/creative">
+            <div className="button CC">
+              <img className="img" src={randomWalk} width={300} height={300} />
+              <p className="projectTitle">Creative Coding</p>
+            </div>
+          </Link>
+          <Link
+            to="https://my-favourite-media.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,9 +63,9 @@ function AppHeader(): JSX.Element {
                 My Favourite Media (work in progress!)
               </p>
             </div>
-          </a>
-          <a
-            href="https://getstuffdone.maghfoor.com/"
+          </Link>
+          <Link
+            to="https://getstuffdone.maghfoor.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,11 +78,15 @@ function AppHeader(): JSX.Element {
               />
               <p className="projectTitle">Get Stuff Done!</p>
             </div>
-          </a>
-          <Link to="/creative">
-            <div className="button CC">
-              <img className="img" src={randomWalk} width={300} height={300} />
-              <p className="projectTitle">Creative Coding</p>
+          </Link>
+          <Link
+            to="https://zmdb-official.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="button ZMDB">
+              <img className="img" src={ZMDB} width={300} height={300} />
+              <p className="projectTitle">ZMDB</p>
             </div>
           </Link>
         </div>

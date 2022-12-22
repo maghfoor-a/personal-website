@@ -79,7 +79,7 @@ body {
 
 .AllProjects {
   display: grid;
-  grid-template-areas: "MFM CC GSD";
+  grid-template-areas: "CC MFM GSD ZMDB";
   position: relative;
   z-index: 3;
   text-align: center;
