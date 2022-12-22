@@ -79,8 +79,8 @@ function AppHeader(): JSX.Element {
               <p className="projectTitle">Get Stuff Done!</p>
             </div>
           </Link>
-          <Link
-            to="https://zmdb-official.netlify.app/"
+          <a
+            href="https://zmdb-official.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ function AppHeader(): JSX.Element {
               <img className="img" src={ZMDB} width={300} height={300} />
               <p className="projectTitle">ZMDB</p>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </>
