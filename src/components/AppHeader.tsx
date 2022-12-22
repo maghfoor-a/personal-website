@@ -52,8 +52,8 @@ function AppHeader(): JSX.Element {
               <p className="projectTitle">Creative Coding</p>
             </div>
           </Link>
-          <Link
-            to="https://my-favourite-media.netlify.app/"
+          <a
+            href="https://my-favourite-media.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,7 +63,7 @@ function AppHeader(): JSX.Element {
                 My Favourite Media (work in progress!)
               </p>
             </div>
-          </Link>
+          </a>
           <a
             href="https://getstuffdone.maghfoor.com/"
             target="_blank"
