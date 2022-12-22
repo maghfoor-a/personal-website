@@ -64,8 +64,8 @@ function AppHeader(): JSX.Element {
               </p>
             </div>
           </Link>
-          <Link
-            to="https://getstuffdone.maghfoor.com/"
+          <a
+            href="https://getstuffdone.maghfoor.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -78,7 +78,7 @@ function AppHeader(): JSX.Element {
               />
               <p className="projectTitle">Get Stuff Done!</p>
             </div>
-          </Link>
+          </a>
           <a
             href="https://zmdb-official.netlify.app/"
             target="_blank"
