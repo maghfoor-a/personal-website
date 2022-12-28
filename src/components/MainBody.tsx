@@ -1,3 +1,5 @@
+import "./MainBody.css"
+
 export default function MainBody(): JSX.Element {
     return (
         <>
@@ -21,6 +23,7 @@ export default function MainBody(): JSX.Element {
         <section className="intro" id="home">
             <h1 className="section__title section__title--intro">Hi! I am <strong>Maghfoor Ahmed</strong></h1>
             <p className="section__subtitle section__subtitle--intro">Full Stack Software Developer</p>
+            <img src="src\utils\Headshots-Maghfoor-4.webp" alt="" className="intro__img"/>
         </section>
 
         {/* About Me */}
