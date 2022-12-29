@@ -1,4 +1,6 @@
 import "./MainBody.css"
+import { BsLinkedin } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
 
 export default function MainBody(): JSX.Element {
     return (
@@ -13,9 +15,9 @@ export default function MainBody(): JSX.Element {
             </button>
             <nav className="nav">
                 <ul className="nav__list">
-                    <li className="nav__item"><a href="#">Home</a></li>
-                    <li className="nav__item"><a href="#">Projects</a></li>
-                    <li className="nav__item"><a href="/creative">Creative Coding</a></li>
+                    <li className="nav__link"><a href="#">Home</a></li>
+                    <li className="nav__link"><a href="#">Projects</a></li>
+                    <li className="nav__link"><a href="/creative">Creative Coding</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,11 +56,11 @@ export default function MainBody(): JSX.Element {
 
         {/* Footer */}
 
-        <footer>
-            <a href="mailto:maghfoor.ahmed05@gmail.com" className="footer-link">maghfoor.ahmed05@gmail.com</a>
+        <footer className="footer">
+            <a href="mailto:maghfoor.ahmed05@gmail.com" className="footer__link">maghfoor.ahmed05@gmail.com</a>
             <ul className="social-list">
-                <li className="social-list__item"><a className="social-list__link" href="https://www.linkedin.com/in/maghfoor/">LinkedIn</a></li>
-                <li className="social-list__item"><a className="social-list__link" href="https://github.com/maghfoor-a">GitHub</a></li>
+                <li className="social-list__item"><a className="social__list__link" href="https://www.linkedin.com/in/maghfoor/"><BsLinkedin/></a></li>
+                <li className="social-list__item"><a className="social__list__link" href="https://github.com/maghfoor-a"><BsGithub /></a></li>
             </ul>
         </footer>
 
