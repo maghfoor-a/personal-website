@@ -175,8 +175,9 @@ h3 {font-size: var(--fs-h3);}
 }
 
 .section__findinfo {
-    background-color: red;
+    background-color: rgb(238, 39, 39);
     width: fit-content;
+    color: white;
 }
 
 .portfolio__item {

@@ -23,35 +23,35 @@ export default function MFM():JSX.Element {
             <p className="project_subheading">TECH STACK</p>
             <div className="project_icons">
                 <div className='single-icon'>
-                <SiTypescript size={'3rem'}/>
+                <SiTypescript size={'3rem'} color={"#007acc"}/>
                 <p className='project_icon-name'>TypeScript</p>
                 </div>
                 <div className='single-icon'>
-                <SiReact size={'3rem'}/>
+                <SiReact size={'3rem'} color={"#61DBFB"}/>
                 <p className='project_icon-name'>React</p>
                 </div>
                 <div className='single-icon'>
-                <SiGithub size={'3rem'}/>
+                <SiGithub size={'3rem'} color={"#171515"}/>
                 <p className='project_icon-name'>GitHub</p>
                 </div>
                 <div className='single-icon'>
-                <SiNodedotjs size={'3rem'}/>
+                <SiNodedotjs size={'3rem'} color={"#3c873a"}/>
                 <p className='project_icon-name'>NodeJs</p>
                 </div>
                 <div className='single-icon'>
-                <SiHtml5 size={'3rem'}/>
+                <SiHtml5 size={'3rem'} color={"#e34c26"}/>
                 <p className='project_icon-name'>HTML</p>
                 </div>
                 <div className='single-icon'>
-                <SiCss3 size={'3rem'}/>
+                <SiCss3 size={'3rem'} color={"#264de4"}/>
                 <p className='project_icon-name'>CSS</p>
                 </div>
                 <div className='single-icon'>
-                <SiNetlify size={'3rem'}/>
+                <SiNetlify size={'3rem'} color={"#00AD9F"}/>
                 <p className='project_icon-name'>Netlify</p>
                 </div>
                 <div className='single-icon'>
-                <SiJest size={'3rem'}/>
+                <SiJest size={'3rem'} color={"#C53D14"}/>
                 <p className='project_icon-name'>Jest</p>
                 </div>
             </div>
