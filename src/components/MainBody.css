@@ -74,7 +74,7 @@ a:active {
     transform: scale(0.9);
 }
 section {
-    padding: 2rem 2em;
+    padding: 1rem 1em;
 }
 
 img {
@@ -242,11 +242,72 @@ h3 {font-size: var(--fs-h3);}
 
 /* Stylings for the individual project page */
 
-.project_page {
-    padding: 1em;
-}
-
 .project_title {
     font-size: var(--fs-h2);
     font-weight: var(--fw-bold);
+    margin: 0;
+}
+
+.project_buttons {
+    display: grid;
+    grid-template-areas: "live code";
+    max-width: 30%;
+    grid-column-gap: 1em;
+}
+
+.project_button-live {
+    grid-area: live;
+    background-color: #fff07c;
+    animation: glow-button 2s linear infinite reverse;
+}
+
+@keyframes glow-button {
+    100% {
+        color: red;
+        box-shadow: 0.25em 0.25em 0.75em rgba(255, 6, 6, 0.25);
+    }
+}
+.project_button-code {
+    grid-area: code;
+    transition: 0.3s;
+}
+
+.project_button-live,
+.project_button-code {
+    box-shadow: var(--bs);
+    cursor: pointer;
+}
+
+.project_button-code:hover {
+    transform: scale(0.9);
+}
+
+.project_description {
+    width: 60%;
+    background-color: var(--clr-accent);
+}
+
+.project_subheading {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    margin: 0;
+    width: fit-content;
+}
+.project_icons {
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project_icon-name {
+    font-size: 0.7em;
+    margin: 0;
+}
+.single-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em;
 }

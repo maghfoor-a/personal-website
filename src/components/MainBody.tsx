@@ -13,7 +13,7 @@ export default function MainBody(): JSX.Element {
         </section>
 
         {/* Projects */}
-        <section className="projects">
+        <section className="projects" id="projects">
             <h2 className="section__title">Projects</h2>
             <p className="section__subtitle">Here are some of the projects I have worked on</p>
             <p className="section__findinfo">Click on a project to find out more information!</p>
