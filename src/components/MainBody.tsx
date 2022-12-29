@@ -30,17 +30,6 @@ export default function MainBody(): JSX.Element {
         <div className="portfolio">
           {/*Item 1 */}
           <div
-            onClick={() => window.open("/mfm", "_self")}
-            className="portfolio__item"
-          >
-            <img src={pictureMFM} alt="" className="portfolio__img" />
-            <p className="portfolio__title">My Favourite Media</p>
-            <p className="portfolio__description">
-              A database where you can store your favourite albums.
-            </p>
-          </div>
-          {/*Item 2 */}
-          <div
             onClick={() => window.open("/getstuffdone", "_self")}
             className="portfolio__item"
           >
@@ -48,6 +37,18 @@ export default function MainBody(): JSX.Element {
             <p className="portfolio__title">Get Stuff Done</p>
             <p className="portfolio__description">
               A web application that helps you stay on top of your work.
+            </p>
+          </div>
+
+          {/*Item 2 */}
+          <div
+            onClick={() => window.open("/mfm", "_self")}
+            className="portfolio__item"
+          >
+            <img src={pictureMFM} alt="" className="portfolio__img" />
+            <p className="portfolio__title">My Favourite Media</p>
+            <p className="portfolio__description">
+              A database where you can store your favourite albums.
             </p>
           </div>
           {/*Item 3 */}
