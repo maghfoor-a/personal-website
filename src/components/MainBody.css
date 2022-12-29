@@ -13,7 +13,7 @@
 
     --clr-bg: #fff;
     --clr-dark: #303030;
-    --clr-accent: #ff5a5f;
+    --clr-accent: #fff07c;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -43,7 +43,7 @@ body {
 }
 
 section {
-    padding: 2em 2em;
+    padding: 2rem 2em;
 }
 
 img {
@@ -122,4 +122,35 @@ nav {
         left: -2em;
         width: calc(100% + 2em);
     }
+}
+
+.projects {
+    background-color: var(--clr-accent);
+}
+
+.portfolio__item {
+    background-color: #EBA9AB;
+    cursor: pointer;
+    display: grid;
+    grid-template-areas:
+    "project-img project-title"
+    "project-img project-desc";
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 1em;
+    margin: 1em;
+}
+
+.portfolio__img {
+    grid-area: project-img;
+    min-width: 250px;
+}
+
+.portfolio__title {
+    grid-area: project-title;
+    margin: 0;
+}
+
+.portfolio__description {
+    grid-area: project-desc;
+    margin: 0;
 }

@@ -26,23 +26,29 @@ export default function MainBody(): JSX.Element {
             <img src="src\utils\Headshots-Maghfoor-4.webp" alt="" className="intro__img"/>
         </section>
 
-        {/* About Me */}
+        {/* Projects */}
         <section className="projects">
             <h2 className="section__title">Projects</h2>
             <p className="section__subtitle">Here are some of the projects I have worked on</p>
             <div className="portfolio">
                 {/*Item 1 */}
-                <a href="#" className="portfolio__item">
+                <div onClick={() => window.open("https://myfavouritemedia.maghfoor.com/")} className="portfolio__item">
                     <img src="src\utils\MFM.webp" alt="" className="portfolio__img"/>
-                </a>
+                    <p className="portfolio__title">My Favourite Media</p>
+                    <p className="portfolio__description">A database where you can store your favourite albums.</p>
+                </div>
                 {/*Item 2 */}
-                <a href="#" className="portfolio__item">
+                <div onClick={() => window.open("https://myfavouritemedia.maghfoor.com/")} className="portfolio__item">
                     <img src="src\utils\GetStuffDone.webp" alt="" className="portfolio__img"/>
-                </a>
+                    <p className="portfolio__title">Get Stuff Done</p>
+                    <p className="portfolio__description">A web application that helps you stay on top of your work.</p>
+                </div>
                 {/*Item 3 */}
-                <a href="#" className="portfolio__item">
+                <div onClick={() => window.open("https://myfavouritemedia.maghfoor.com/")} className="portfolio__item">
                     <img src="src\utils\ZMDB.webp" alt="" className="portfolio__img"/>
-                </a>
+                    <p className="portfolio__title">ZMDB</p>
+                    <p className="portfolio__description">Find information about your favourite tv shows.</p>
+                </div>
             </div>
         </section>
 
