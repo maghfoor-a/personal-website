@@ -1,34 +1,18 @@
-import "./AppHeader.css";
-import React from "react";
-import { Link } from "react-router-dom";
-import Projects from "./Projects";
-import Buttons from "./Buttons";
-
-function AppHeader(): JSX.Element {
-  const [widthPct, setWidthPct] = React.useState<number>(50);
-
-  const handleMouseMove = (e: any) => {
-    const xPercentage = (e.clientX / window.innerWidth) * 100;
-    setWidthPct(xPercentage);
-  };
-
+export default function AppHeaderV2(): JSX.Element {
   return (
     <>
-      <div className="BothSides" onMouseMove={handleMouseMove}>
-        <Buttons />
-        <div id="left-side" className="side" style={{ width: `${widthPct}%` }}>
-          <h2 className="title">
-            Today was <span className="fancy">GOOD</span>
-          </h2>
-        </div>
-        <div id="right-side" className="side">
-          <h2 className="title">
-            Today was <span className="fancy">GREAT</span>
-          </h2>
-        </div>
-        <Projects />
-      </div>
+      <header className="appheader">
+        <img className="logo" src="testing-circle.png" alt="" />
+        <li className="nav__link">
+          <a href="/#home">Home</a>
+        </li>
+        <li className="nav__link">
+          <a href="/#projects">Projects</a>
+        </li>
+        <li className="nav__link">
+          <a href="/creative">Creative Coding</a>
+        </li>
+      </header>
     </>
   );
 }
-export default AppHeader;
