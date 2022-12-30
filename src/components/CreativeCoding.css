@@ -10,6 +10,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.3rem;
   background-color: rgb(25, 49, 46);
+  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 .sketch {
@@ -17,6 +19,15 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.3rem;
   color: rgb(8, 165, 147);
+  text-align: center;
+  margin: 0 auto;
+}
+.click-to-view {
+  background-color: red;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 .allCreative {
@@ -28,7 +39,11 @@ body {
 
 .singlePicture {
   margin: 1rem;
-  max-width: 400;
+  display: grid;
+  grid-template-areas:
+    "img"
+    "txt";
+  width: 400px;
   text-align: center;
   border: 0.2rem solid rgb(43, 31, 31);
   border-radius: 10px;
@@ -50,6 +65,13 @@ body {
 }
 
 .image {
+  grid-area: img;
   border-radius: 5px;
   object-fit: cover;
+  width: 100%;
+}
+
+.creative-description {
+  grid-area: txt;
+  margin: 0;
 }

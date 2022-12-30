@@ -12,7 +12,9 @@ export default function CreativeCoding(): JSX.Element {
       </div>
       <div className="sketch">
         <h1>2D ANIMATION and SKETCHES</h1>
-        <h3>Click on an image to view the open processing code!😎</h3>
+        <p className="click-to-view">
+          Click on an image to view the open processing code!😎
+        </p>
       </div>
       <div className="allCreative">
         {AllGifs.map((media) => {
@@ -33,7 +35,7 @@ export default function CreativeCoding(): JSX.Element {
                 muted
                 poster={media.poster}
               />
-              <h4>{media.name}</h4>
+              <h4 className="creative-description">{media.name}</h4>
             </div>
           );
         })}
@@ -54,7 +56,7 @@ export default function CreativeCoding(): JSX.Element {
                 height="400"
                 loading="lazy"
               />
-              <h4>{media.name}</h4>
+              <h4 className="creative-description">{media.name}</h4>
             </div>
           );
         })}
