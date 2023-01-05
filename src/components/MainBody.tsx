@@ -4,6 +4,7 @@ import { BsGithub } from "react-icons/bs";
 import pictureMFM from "../utils/MFM.webp";
 import pictureGetStuffDone from "../utils/GetStuffDone.webp";
 import pictureZMDB from "../utils/ZMDB.webp";
+import pictureHeatRun from "../utils/heatrun.webp";
 
 export default function MainBody(): JSX.Element {
   return (
@@ -42,6 +43,19 @@ export default function MainBody(): JSX.Element {
 
           {/*Item 2 */}
           <div
+            onClick={() => window.open("/heatrun", "_self")}
+            className="portfolio__item"
+          >
+            <img src={pictureHeatRun} alt="" className="portfolio__img" />
+            <p className="portfolio__title">Heat Run</p>
+            <p className="portfolio__description">
+              Heat Run allows you to track your running journey. The app is
+              still being made, the user will be able to submit running
+              distances, times, pace and more and get analysis!
+            </p>
+          </div>
+          {/*Item 3 */}
+          <div
             onClick={() => window.open("/mfm", "_self")}
             className="portfolio__item"
           >
@@ -51,7 +65,8 @@ export default function MainBody(): JSX.Element {
               A database where you can store your favourite albums.
             </p>
           </div>
-          {/*Item 3 */}
+
+          {/*Item 4 */}
           <div
             onClick={() => window.open("/zmdb", "_self")}
             className="portfolio__item"

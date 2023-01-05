@@ -5,6 +5,7 @@ import MFM from "./components/ProjectPages/MFM";
 import GetStuffDone from "./components/ProjectPages/GetStuffDone";
 import ZMDB from "./components/ProjectPages/ZMDB";
 import AppHeaderV2 from "./components/AppHeader";
+import HeatRun from "./components/ProjectPages/HeatRun";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/mfm" element={<MFM />}></Route>
         <Route path="/getstuffdone" element={<GetStuffDone />}></Route>
         <Route path="/zmdb" element={<ZMDB />}></Route>
+        <Route path="/heatrun" element={<HeatRun />}></Route>
       </Routes>
     </>
   );
